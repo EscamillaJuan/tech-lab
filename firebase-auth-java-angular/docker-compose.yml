@@ -1,0 +1,18 @@
+services:
+  firebase-emulator:
+    build: .
+    container_name: firebase-emulator
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+      - firebase_cache:/root/.cache/firebase
+    ports:
+      - "9099:9099"
+      - "4000:4000"
+    environment:
+      - FIREBASE_AUTH_EMULATOR_HOST=0.0.0.0:9099
+    stdin_open: true
+    tty: true
+
+volumes:
+  firebase_cache:

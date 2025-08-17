@@ -1,0 +1,27 @@
+<div class="login-container" *ngIf="!(user$ | async)">
+  <h2>Welcome Back</h2>
+  <p class="subtitle">Please login to your account</p>
+
+  <form (ngSubmit)="login()" class="login-form">
+    <div class="form-group">
+      <input
+        type="email"
+        [(ngModel)]="email"
+        name="email"
+        placeholder="Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <input
+        type="password"
+        [(ngModel)]="password"
+        name="password"
+        placeholder="Password"
+        required
+      />
+    </div>
+    <button type="submit" class="btn-primary">Sign in</button>
+    <button type="button" class="btn-secondary" (click)="signUp()">Create Account</button>
+  </form>
+</div>

@@ -1,0 +1,115 @@
+{
+  "configVersion": 1,
+  "timestamp": 1762135399661,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/chunk-32FWULLJ.js",
+        "/chunk-33YJTZFV.js",
+        "/chunk-36ESZ2IJ.js",
+        "/chunk-42C7ZIID.js",
+        "/chunk-447CKG3T.js",
+        "/chunk-4WFVMWDK.js",
+        "/chunk-CDZFCBFW.js",
+        "/chunk-CLDSZD2A.js",
+        "/chunk-DVVH2KKN.js",
+        "/chunk-E2CLONXR.js",
+        "/chunk-EV4NDUEZ.js",
+        "/chunk-FA25AEA4.js",
+        "/chunk-HBR3UV35.js",
+        "/chunk-JHI3MBHO.js",
+        "/chunk-JVTPOORY.js",
+        "/chunk-KRDHHS7Z.js",
+        "/chunk-LRFGNCHE.js",
+        "/chunk-M2X7KQLB.js",
+        "/chunk-NLLQVPJ3.js",
+        "/chunk-NNCPI6KE.js",
+        "/chunk-NV3QH4JK.js",
+        "/chunk-OZYWYLNK.js",
+        "/chunk-P5FJYL7I.js",
+        "/chunk-SI6YCVDX.js",
+        "/chunk-ULUBRAOE.js",
+        "/chunk-WVMIGTQT.js",
+        "/index.html",
+        "/main-ZPVEFLAP.js",
+        "/polyfills-TDCRLYKL.js",
+        "/styles-I7WJSELC.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icon/favicon.png",
+        "/assets/shapes.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icon/favicon.png": "7798b8e0eb61d7375c245af78bbf5c916932bf13",
+    "/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
+    "/chunk-32FWULLJ.js": "4d1d1dd5b4f7ec90267af60f61afd7fc38cf190c",
+    "/chunk-33YJTZFV.js": "a0d07d6e54bd7570e071f1ab316bc484e937fcd5",
+    "/chunk-36ESZ2IJ.js": "8495b74091e3bf0853f7c2819276d38ed3fd9bdf",
+    "/chunk-42C7ZIID.js": "9a4312a44cc8ab8573488a48a18c01a6bb352c6b",
+    "/chunk-447CKG3T.js": "73958b94662f119ce2728b532eee640463d7f807",
+    "/chunk-4WFVMWDK.js": "5b6d47107e58373ea3dc79e4e6878406e21505e8",
+    "/chunk-CDZFCBFW.js": "a4f938128cd08bdf00a6b5618fe31e1dd6a08035",
+    "/chunk-CLDSZD2A.js": "0728d2cc161cc8dcb025bbe89985aa0847082bae",
+    "/chunk-DVVH2KKN.js": "445bcf1de7b500fb354d0cf9c650ca914ab1bebc",
+    "/chunk-E2CLONXR.js": "98b2b57d7bbb83809bb805f264d6af033d193532",
+    "/chunk-EV4NDUEZ.js": "08dc30dae64cfccf15b677a160d55d50aeeac8e0",
+    "/chunk-FA25AEA4.js": "67b189f290ca6770c1314e442b21f2feb4f64d07",
+    "/chunk-HBR3UV35.js": "119f6ebc899f51066a17182957b9c9a4e28587af",
+    "/chunk-JHI3MBHO.js": "a36b3242848dc514776e1c7fd2cc5d64f3a737b2",
+    "/chunk-JVTPOORY.js": "355dd8f229315ef6c3c575909e5a977f1884382c",
+    "/chunk-KRDHHS7Z.js": "23e3912a5bf9a94c78aaedc8489c7924c6dd1981",
+    "/chunk-LRFGNCHE.js": "1c635e4a0778f8a8bc3c1d24e99b6cb374764936",
+    "/chunk-M2X7KQLB.js": "7610d018b4a45d32351f6d9f64fb4fa41b99fe9e",
+    "/chunk-NLLQVPJ3.js": "011886d557ce6ce9964eb39120ec4d00eb3f5fe0",
+    "/chunk-NNCPI6KE.js": "8663ef3a89336b62297d36912e1517ba12f605fa",
+    "/chunk-NV3QH4JK.js": "5cb313d931fe5ddd2bb2299afd1f29d8b9d67422",
+    "/chunk-OZYWYLNK.js": "aa8e063201160038be9dc8bbbbe95177fc14c598",
+    "/chunk-P5FJYL7I.js": "378e08ae59db7507f3fbb1078f75fb15797c7895",
+    "/chunk-SI6YCVDX.js": "fd118741b6e43efba7a3b13f7a49ddb82fbb6003",
+    "/chunk-ULUBRAOE.js": "9a1b7a7124e98ca9ae8cfcdeb031307dfe1611bb",
+    "/chunk-WVMIGTQT.js": "6c608b7c02647092851cd8afd5196ebb669ec57e",
+    "/index.html": "90b055ed7b23fc84974c853aa4564949ad7f07ba",
+    "/main-ZPVEFLAP.js": "dbd8efa49dee2a277c8853aed4352732c77969e6",
+    "/polyfills-TDCRLYKL.js": "454f6db4230cc7ab61b24fe465dcc92bf041737d",
+    "/styles-I7WJSELC.css": "ce7ce269954ce28ae6f9e984b710790c71d6a7d4"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

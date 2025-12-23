@@ -1,0 +1,41 @@
+package com.escamilla.structural.adapter;
+
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+// Adapter
+public final class MultiFileReader implements Closeable {
+    private final List<BufferedReader> readers;
+
+    public MultiFileReader(List<Path> paths) {
+        readers = new ArrayList<>(paths.size());
+        try {
+            for (Path path : paths) {
+                readers.add(Files.newBufferedReader(path));
+            }
+        } catch (IOException ignored) {
+
+        } finally {
+            close();
+        }
+    }
+
+    public List<BufferedReader> getReaders() {
+        return Collections.unmodifiableList(readers);
+    }
+
+    @Override
+    public void close() {
+        for (BufferedReader reader: readers) {
+            try {
+                reader.close();
+            } catch (IOException ignored) {
+
+            }
+         }
+    }
+}

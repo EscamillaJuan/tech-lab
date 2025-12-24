@@ -1,4 +1,4 @@
-package examples;
+package examples.word_counter;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
